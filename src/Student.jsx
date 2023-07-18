@@ -1,5 +1,10 @@
 function Student({ students }) {
-  return <div>{students.name}</div>
+  return (
+    <>
+      <h1>{students.name}</h1>
+      <p>{students.bio}</p>
+    </>
+  )
 }
 
 export default Student
