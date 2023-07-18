@@ -1,0 +1,8 @@
+.App {
+  margin: 5vmin 5vmin 0 2vmin;
+  font-family: sans-serif;
+}
+
+.App > h1 {
+  text-align: center;
+}

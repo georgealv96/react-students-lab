@@ -66,7 +66,15 @@ const studentsData = [
 function App() {
   const [students, setStudents] = useState(studentsData)
 
-  return students.map((student) => <Student students={student} />)
+  return (
+    <div className="App">
+      <h1>STUDENTS</h1>
+      <br />
+      {students.map((student, idx) => (
+        <Student key={idx} students={student} />
+      ))}
+    </div>
+  )
 }
 
 export default App

@@ -1,8 +1,8 @@
 function Score({ score }) {
   return (
-    <p>
-      {score.date}: {score.score}
-    </p>
+    <li>
+      {score.date}: {score.score} pts.
+    </li>
   )
 }
 
