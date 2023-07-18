@@ -1,3 +1,5 @@
+import Score from './Score'
+
 function Student({ students }) {
   return (
     <>
